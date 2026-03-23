@@ -1,0 +1,2 @@
+window.alert('ERROR, PAGE NOT FULLY DEVELOPED. EARLY ACCESS GRANTED')
+window.Audio()
