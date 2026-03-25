@@ -1,0 +1,79 @@
+    body
+    {
+        color: cyan;
+        background-image: url(https://raw.githubusercontent.com/jmore-s010-a11y/Images/95ca2f21cf97195c68851efb451e6d2a469d095f/PhoneBackgroundforWebsite.png);
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #header
+    {
+        background-color: cyan;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+    h1
+    {
+        color:black;
+    }
+    h3
+    {
+        color: black;
+    }
+    #container
+    {
+        border: 5px solid cyan;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    p
+    {
+        background-image: url(../ActualPortfolioImages/PhTextBackground.png);
+        border: 5px solid cyan;
+        padding: .5rem;
+    }
+    SAM
+    {
+        color: white;
+    }
+    #SecretMessage
+    {
+        color: white;
+        margin-top: 100%;
+    }
+    SM
+    {
+        color: white;
+    }
+    ul
+    {
+        border: 5px solid cyan;
+        justify-content: space-evenly;
+        list-style-type: none;
+        display: flex;
+    }
+    a
+    {
+        color: cyan;
+    }
+            /*Tablet*/
+    @media  screen and (min-width:768px)
+            {
+                body{background-image: url(https://raw.githubusercontent.com/jmore-s010-a11y/Images/95ca2f21cf97195c68851efb451e6d2a469d095f/TabletBackgroundFinal%20copy.jpg);
+                background-size: cover;
+            background-attachment: fixed;}
+            p
+            {
+                background-image: url(../ActualPortfolioImages/TaTextBackground.png);
+            }
+        /*PC*/
+            @media  screen and (min-width:1024px)
+        {
+            body{background-image: url(https://raw.githubusercontent.com/jmore-s010-a11y/Images/f9fcfe8c2a595544a9ce6eb8663eab26f0bd8f6a/NEWBackgroundforWebsite.jpg);
+            background-size: cover;
+            background-attachment: fixed;}
+            p
+            {
+            background-image: url(../ActualPortfolioImages/PCTextBackground.png);
+            }
+        }
+            }
